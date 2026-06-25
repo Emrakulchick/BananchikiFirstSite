@@ -1,0 +1,209 @@
+* {
+    font-family: 'Poppins', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 450;
+}
+
+#app {
+    width: 100%;
+    width: 800px;
+    border: 1px solid;
+    margin: 0 auto;
+}
+
+.secondary {
+    color: #EBDA49;
+}
+
+.altText,
+*::placeholder {
+    color: #797979;
+    font-family: 'Prata', Arial, sans-serif;
+}
+
+body {
+    background-color: #1E1E24;
+    margin: 0;
+}
+
+header {
+    background-color: #2F2F39;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-left: 30px;
+}
+
+.personalInfo {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.personalInfo h1,
+.personalInfo h2 {
+    margin: 0;
+}
+
+.smallInfo {
+    margin-left: 30px;
+    max-width: 70%;
+}
+
+.contactInfo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+
+
+.contats {
+    margin-top: 70px;
+    margin-left: 40px;
+}
+
+.mainContent {
+    display: flex;
+    margin-left: 30px;
+}
+
+.mainContent h3,
+.mainContent h4 {
+    margin: 0;
+    max-width: 50%;
+}
+
+.mainContent p {
+    margin-bottom: 40px;
+    max-width: 50%;
+}
+
+
+.listInfoh2 {
+
+    margin-left: 30px;
+
+}
+
+.listInfo {
+    margin-left: 30px;
+    margin-bottom: 0px;
+}
+
+
+
+
+.buttonContainer {
+
+    text-align: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.buttonBanana {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url('images/bananaIn.png');
+    background-size: cover;
+    transition: background-image 0.3s ease;
+}
+
+.buttonBanana:hover {
+    background-image: url('images/bananaOut.png');
+}
+
+
+
+#addExpForm {
+    display: flex;
+    flex-direction: column;
+    background-color: #2F2F39;
+    width: 455px;
+    border-radius: 32px;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px 40px 60px 40px;
+    text-align: center;
+
+
+}
+
+#addExpForm input {
+    width: 100%;
+    box-sizing: border-box;
+    height: 55px;
+    margin-top: 30px;
+    padding-left: 22px;
+    border-radius: 16px;
+    background-color: #1e1e24;
+    color: #FFFFFF;
+    border: 1px solid #797979;
+}
+
+#addExpForm input:focus {
+    outline: none;
+    border: 1px solid #5f4919;
+}
+
+#addExpForm button {
+    height: 49px;
+    width: 225px;
+    max-width: 80%;
+    margin: 0 auto;
+    border: 1px solid #797979;
+    border-radius: 16px;
+    background-color: #EBDA49;
+    color: #ffffff;
+}
+
+.addRowwing {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 42px;
+}
+
+.menColor {
+    color: #5f4919;
+    -webkit-text-stroke: 0.3px #EBDA49;
+}
+
+
+.mainText {
+    color: #FFFFFF;
+
+}
+
+.smallText {
+    font-size: 11px;
+    line-height: 16px;
+}
+
+.extraSmallText {
+    font-size: 10px;
+    line-height: 16px;
+}
+
+.largeText {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.extraLargeText {
+    font-size: 26 px;
+    line-height: 34 px;
+
+}
+
+li::marker {
+    color: #ffffff;
+}
