@@ -122,6 +122,8 @@ header {
 
 
 #addExpForm {
+    position: sticky;
+    top: 100px;
     display: flex;
     flex-direction: column;
     background-color: #2F2F39;
@@ -131,7 +133,7 @@ header {
     margin: 0 auto;
     padding: 20px 40px 60px 40px;
     text-align: center;
-
+    box-shadow: 8px 8px 4px 2px rgba(0, 0, 0, 0.5);
 
 }
 
@@ -157,10 +159,11 @@ header {
     width: 225px;
     max-width: 80%;
     margin: 0 auto;
-    border: 1px solid #797979;
     border-radius: 16px;
-    background-color: #EBDA49;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #5f4919;
+    border: 2px solid #EBDA49;
+    transition-duration: 0.4s
 }
 
 .addRowwing {
@@ -206,4 +209,31 @@ header {
 
 li::marker {
     color: #ffffff;
+}
+
+.formWrapper {
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 150%;
+
+}
+
+.none {
+    display: none;
+}
+
+
+.transit {
+    transition-duration: 1s;
+}
+
+#addExpForm button:hover {
+    background-color: #EBDA49;
+    color: #ffffff;
+    border: 2px solid #797979;
 }
